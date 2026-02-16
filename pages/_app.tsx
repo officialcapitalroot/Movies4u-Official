@@ -156,23 +156,22 @@ function MyApp({ Component, pageProps }: AppProps) {
     const loadAdScripts = () => {
       // Load first ad script
 
-      // const adScript1 = document.createElement('script');
-      // adScript1.innerHTML = `(function(s){s.dataset.zone='10616792',s.src='gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
-      // document.head.appendChild(adScript1);
+      const adScript1 = document.createElement('script');
+      adScript1.innerHTML = `(function(s){s.dataset.zone='10617227',s.src='gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
+      document.head.appendChild(adScript1);
 
       // Load second ad script
-
-      // const adScript2 = document.createElement('script');
-      // adScript2.innerHTML = `(function(s){s.dataset.zone='10616789',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
-      // document.head.appendChild(adScript2);
+      const adScript2 = document.createElement('script');
+      adScript2.innerHTML = `(function(s){s.dataset.zone='10617224',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
+      document.head.appendChild(adScript2);
 
       // New ad script
    
-      // const adScriptNew = document.createElement('script');
-      // adScriptNew.src = 'https://3nbf4.com/act/files/tag.min.js?z=10616798';
-      // adScriptNew.setAttribute('data-cfasync', 'false');
-      // adScriptNew.async = true;
-      // document.head.appendChild(adScriptNew);
+      const adScriptNew = document.createElement('script');
+      adScriptNew.src = 'https://3nbf4.com/act/files/tag.min.js?z=10617232';
+      adScriptNew.setAttribute('data-cfasync', 'false');
+      adScriptNew.async = true;
+      document.head.appendChild(adScriptNew);
 
       // Load clicky script
 
